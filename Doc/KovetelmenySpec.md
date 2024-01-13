@@ -1,5 +1,5 @@
-#RFT Projekt 
-#Követelményspecifikáció
+# RFT Projekt 
+# Követelményspecifikáció
 
 ## 1. Jelenlegi helyzet leírása 
 ## 2.Vágyálom rendszer leírása
