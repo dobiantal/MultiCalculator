@@ -7,6 +7,7 @@
 ## 4.Jelenlegi üzleti folyamatok modellje
 ## 5.Igényelt üzleti folyamatok modellje
 ## 6.Követelménylista
+    kötelezően tartalmazni kell.
 ## 7.(Irányított és szabad szöveges riportok szövege)
 ## 8.Fogalomszótár.
 
