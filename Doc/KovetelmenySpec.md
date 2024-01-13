@@ -1,14 +1,10 @@
 # RFT Projekt 
 # Követelményspecifikáció
 
-## 1. Jelenlegi helyzet leírása 
-rfsaergs
+## 1. Jelenlegi helyzet leírása
 ## 2.Vágyálom rendszer leírása
-ferws
-## 3.A rendszerre vonatkozó pályázat 
-fars
+## 3.A rendszerre vonatkozó pályázat
 ## 4.Jelenlegi üzleti folyamatok modellje
-rfs
 ## 5.Igényelt üzleti folyamatok modellje
 ## 6.Követelménylista
     kötelezően tartalmazni kell.
