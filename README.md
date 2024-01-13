@@ -1,2 +1,0 @@
-# MultiCalculator
-## Leírás
