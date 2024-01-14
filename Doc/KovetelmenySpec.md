@@ -2,6 +2,12 @@
 # Követelményspecifikáció
 
 ## 1. Jelenlegi helyzet leírása
+A Kartal település önkormányzata örömmel tudatja, hogy sikeresen pályázatot nyert az informatikai eszközök cseréjére és a 
+használt szoftverek korszerűsítésére. Ezen nagyszerű lehetőség kapcsán a kartali önkormányzat beszerzésért felelős munkatársa
+felkeresett azzal a jó hírrel, hogy cégünknek kellene fejleszteni egy olyan programot ami megoldást nyújt nekik a jelenlegi
+munkafolyamataik során leggyakrabban előforduló hibák csökkentésére. Ezzeket a hibákat a manuális számolások és az átváltások okozzák
+Ennek megoldása érdekében az önkormányzat elkötelezett a modern informatikai eszközök bevezetése mellett, 
+melyek segítségével hatékonyabban és hibamentesebben végezhetik el mindennapi tevékenységeiket. 
 ## 2.Vágyálom rendszer leírása
 ## 3.A rendszerre vonatkozó pályázat
 ## 4.Jelenlegi üzleti folyamatok modellje
