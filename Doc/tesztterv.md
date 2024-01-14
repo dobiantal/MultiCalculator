@@ -22,3 +22,4 @@ minden átváltás a mefelelő értékkel tér vissza._
 * Manuális teszt:  
 _Az első verzióban a kezdőképernyőn két funkciógomb fog helyet foglalni. Ezek tesztelése, melyben
 vizsgáljuk, hogy a megfelelő gomb a hozzárendelt új képernyőt nyitja._
+
