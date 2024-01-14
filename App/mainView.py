@@ -26,11 +26,18 @@ szamologepBTN.place(relwidth=0.5, relheight=0.1, relx=0.25, rely=0.3)
 atvaltoBTN = tk.Button(window,text="Átváltó")
 atvaltoBTN.place(relwidth=0.5, relheight=0.1, relx=0.25, rely=0.5)
 
+#számológép button metódus
+def szamologepMegnyit(event):
+    print("szamologépmegnyitás")
 
 
+#átváltó button metódis
+def atvaltoMegnyit(event):
+    pass
 
-
-
+#gombok esemény kezelése
+szamologepBTN.bind('<Button-1>',szamologepMegnyit)
+atvaltoBTN.bind('<Button-1>',atvaltoMegnyit)
 
 
 
