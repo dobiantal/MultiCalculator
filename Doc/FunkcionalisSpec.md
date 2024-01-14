@@ -66,6 +66,18 @@ felületen tudunk átváltásokat elvégezni a követzetőkkel:
 
 
 ## 6. Funkció–követelmény megfeleltetés
-
+| ID | Verzió | Követelmény | Funkció |
+|--|------| --- | -------- |
+| K01 | V1.0 | Főmenü | A főmenü funkció a funkciók közti váltást teszi lehetővé. A program 2 szolgálatot tud teljesíteni.|  
+| K02 | V1.0 | Számológép | A számológép a főmenüből elérhető a számológép button-ra kattintva.|
+| K03 | V1.0 | Osztás | Ez a matematikai művelet a számológépben van elhelyezve. A jele "/". |
+| K04 | V1.0 | Szorzás | Ez a matematikai művelet a számológépben van elhelyezve. A jele "*". | 
+| K05 | V1.0 | Kivonás | Ez a matematikai művelet a számológépben van elhelyezve. A jele "-". |
+| K06 | V1.0 | Összeadás | Ez a matematikai művelet a számológépben van elhelyezve. A jele "+". |  
+| K07 | V1.0 | Gyökvonás | Ez a matematikai művelet a számológépben van elhelyezve. A jele "√". |
+| K08 | V1.0 | Átváltó | Ez a funkció a Főmenüből érhető el az átváltó feliratú gombra kattintva. | 
+| K09 | V1.0 | Távolság | Ezt a funkcót az átváltóban valósítottuk meg. Az első lehajtható box-ból lehet kiválasztani majd az ehhez tartozó mértékegységekkel számolásokat végezni | 
+| K09 | V1.0 | Tömeg | Ezt a funkcót az átváltóban valósítottuk meg. Az első lehajtható box-ból lehet kiválasztani majd az ehhez tartozó mértékegységekkel számolásokat végezni | 
+| K09 | V1.0 | Térfogat | Ezt a funkcót az átváltóban valósítottuk meg. Az első lehajtható box-ból lehet kiválasztani majd az ehhez tartozó mértékegységekkel számolásokat végezni | 
 
 
