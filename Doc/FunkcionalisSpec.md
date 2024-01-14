@@ -77,7 +77,7 @@ felületen tudunk átváltásokat elvégezni a követzetőkkel:
 | K07 | V1.0 | Gyökvonás | Ez a matematikai művelet a számológépben van elhelyezve. A jele "√". |
 | K08 | V1.0 | Átváltó | Ez a funkció a Főmenüből érhető el az átváltó feliratú gombra kattintva. | 
 | K09 | V1.0 | Távolság | Ezt a funkcót az átváltóban valósítottuk meg. Az első lehajtható box-ból lehet kiválasztani majd az ehhez tartozó mértékegységekkel számolásokat végezni | 
-| K09 | V1.0 | Tömeg | Ezt a funkcót az átváltóban valósítottuk meg. Az első lehajtható box-ból lehet kiválasztani majd az ehhez tartozó mértékegységekkel számolásokat végezni | 
-| K09 | V1.0 | Térfogat | Ezt a funkcót az átváltóban valósítottuk meg. Az első lehajtható box-ból lehet kiválasztani majd az ehhez tartozó mértékegységekkel számolásokat végezni | 
+| K10 | V1.0 | Tömeg | Ezt a funkcót az átváltóban valósítottuk meg. Az első lehajtható box-ból lehet kiválasztani majd az ehhez tartozó mértékegységekkel számolásokat végezni | 
+| K11 | V1.0 | Térfogat | Ezt a funkcót az átváltóban valósítottuk meg. Az első lehajtható box-ból lehet kiválasztani majd az ehhez tartozó mértékegységekkel számolásokat végezni | 
 
 
