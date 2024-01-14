@@ -56,7 +56,7 @@ felületen tudunk átváltásokat elvégezni a követzetőkkel:
     * A kiválasztott mértékegység után érdemes beírni az értéket
     * Ezt követően kell kiválasztanunk hogy milyen mértékegységbe szeretnénk megvalósítani az átváltást
     * Az utolsó lépés pedig a középen elhelyezett nyíllal jelzett gombra való kattintás.
-* #### Térfogat "m3","hl","l","dl","cl","ml"
+* #### Térfogat 
     * **Térfogat** kiválasztva a legördülő listában a térfogathoz tartozó mértékegységek
     fognak megjelenni. Ezek a következők lehetnek : **m3**, **hl**, **l**, **dl**,**cl**,**ml**. Ezek 
       közül kell kiválasztanunk azt a mértékegységet amiről át szeretnénk váltani.
