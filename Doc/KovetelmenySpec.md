@@ -35,6 +35,57 @@ Az átváltás három kulcsfontosságú területet foglal magában: Hosszúság,
 Ez a rendkívül sokoldalú szoftver nem csupán egy egyszerű eszköz, hanem egy olyan eszköz, amely integrálja a matematikai műveleteket és az egységátváltást egy könnyen kezelhető platformon, hogy segítse a dolgozókat hatékonyabb és pontosabb munkavégzésben.
 ## 3.A rendszerre vonatkozó pályázat
 ## 4.Jelenlegi üzleti folyamatok modellje
+#### Bevezetés:
+
+Az alábbi dokumentáció célja a jelenlegi üzleti folyamatok modelljének bemutatása, kifejtve az
+informatikai eszközök cseréjére és a mértékegység-átváltásra fókuszálva. A jelenlegi állapot elemzése 
+alapján célunk a hatékonyság és pontosság növelése a dolgozók mindennapi munkavégzése során.
+
+#### Jelenlegi Matematikai Műveletek:
+
+A jelenlegi üzleti folyamatokban a matematikai műveletek manuálisan történnek. Dolgozóinknak
+szükségük van az összeadásra, kivonásra, osztásra, szorzásra és gyökvonásra a mindennapi 
+feladataikhoz. Az alkalmazottak papír alapú vagy egyszerű számológépek segítségével végzik el 
+ezeket a műveleteket.
+
+#### Mértékegység-Átváltó Folyamatok:
+
+A mértékegység-átváltás jelenleg kihívást jelent. A dolgozóknak nincs egy központi eszközük az egységátváltásra, és gyakran kell keresniük a megfelelő átváltási arányokat az interneten vagy könyvekben.
+
+####  Jelenlegi Hosszúság Átváltások:
+
+Az átváltások a hosszúság területén időigényesek és potenciálisan hibásak lehetnek. A dolgozóknak nincs egységes eszközük, ami pontos és gyors átváltást tesz lehetővé milliméter, centiméter, deciméter, méter, kilóméter és mérföld között.
+
+#### Jelenlegi Térfogat Átváltások:
+
+A térfogatnál a dolgozók hasonló kihívásokkal szembesülnek, ahol a mililiter, centiliter, deciliter, liter, hektoliter és köbméter közötti átváltások időigényesek és hajlamosak hibákra.
+
+#### Jelenlegi Tömeg Átváltások:
+
+A tömegnél a qramm, dekagramm, kilógramm és tonna közötti váltások szintén manuálisan történnek, és nincs egységes rendszer a folyamatok gyorsítására.
+
+#### Jelenlegi Kihívások:
+
+Manuális műveletek okoznak időveszteséget és hibalehetőséget.
+Egységes és gyors átváltások hiánya.
+Nincs központi rendszer a matematikai műveletek és mértékegység-átváltások egyszerűsítésére.
+#### Javasolt Fejlesztési Irányok:
+
+Készítsünk egy egyszerű és intuitív számológép funkciót a matematikai műveletekhez.
+Hozzunk létre egy központi mértékegység-átváltó rendszert a Hosszúság, Terület és Térfogat területeken.
+Implementáljunk olyan algoritmusokat, amelyek gyorsan és pontosan végeznek átváltásokat különböző mértékegységek között.
+#### Elvárható Előnyök:
+
+Gyorsabb és pontosabb matematikai műveletek.
+Egységes és hatékony mértékegység-átváltások.
+Csökkenő hibaszázalék a mindennapi feladatok során.
+Ez a dokumentáció felvázolja a jelenlegi üzleti folyamatok modelljét, és azokat a területeket, amelyeken fejlesztéseket kívánunk végrehajtani a hatékonyság és pontosság növelése érdekében.
+
+
+
+
+
+
 ## 5.Igényelt üzleti folyamatok modellje
 #### 5.1 Üzleti szereplők
 A rendszerben nem különböztetünk meg külön felhasználó szinteket és jogosultsági szinteket sem. 
