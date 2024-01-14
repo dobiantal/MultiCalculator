@@ -8,8 +8,8 @@
 
 ## 4. Képernyőtervek
 ![Fokepernyo]( https://github.com/dobiantal/MultiCalculator/blob/work/Doc/Kepernyoterv/Fokepernyo.jpg)
-![Szamologep]( https://github.com/dobiantal/MultiCalculator/blob/work/Doc/Kepernyoterv/Szamologep.pdf)
-![Atvalto]( https://github.com/dobiantal/MultiCalculator/blob/work/Doc/Kepernyoterv/Atvalto.pdf)
+![Szamologep]( https://github.com/dobiantal/MultiCalculator/blob/work/Doc/Kepernyoterv/Szamologep.jpg)
+![Atvalto]( https://github.com/dobiantal/MultiCalculator/blob/work/Doc/Kepernyoterv/Atvalto.jpg)
 ## 5. Forgatókönyvek
 
 ## 6. Funkció–követelmény megfeleltetés
