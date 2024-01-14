@@ -132,7 +132,7 @@ _\Asztali alkalmazást szeretnénk/_
 * A kinézet szempontjából milyen színvilágot valósítsunk meg?  
 _\Egyszerű a szemnek kellemes pasztel színek alkamazását szeretnénk./_
 * A mértékegység átváltó modulban milyen SI mértékegységek között legyen lehetőség az átváltásra?  
-_\Tömeg esetén (g, dkg, kg, tonna), Térfogat esetén (ml, cl, dl, l, hl, m^3)/,
+_\Tömeg esetén (g, dkg, kg, t), Térfogat esetén (ml, cl, dl, l, hl, m^3)/,
 Távolság (mm, cm, dm, m, km, miles)/_
 * A további bővíthetőség miatt megfelelő lenne-e esetleg egy alap belépőoldal és ebből leágazó almodulok megvalósítása?  
 _\Igen fő szempont, hogy később bővíthető lehessen./_
@@ -140,4 +140,20 @@ _\Igen fő szempont, hogy később bővíthető lehessen./_
 _\A legördülő menü szimpatikus és egyszűrenk tűnik. Megfelelő lesz./_
 
 ## 8.Fogalomszótár.
-
+* **g** (gramm) Tömeg SI mértékegység
+* **dkg** (dekagramm) Tömeg SI mértékegység
+* **kg** (kilógramm) Tömeg SI mértékegység
+* **t** (tonna) Tömeg SI mértékegység
+* **ml** (mililiter) Térfogat SI mértékegység
+* **cl** (centiliter) Térfogat SI mértékegység
+* **dl** (deciliter) Térfogat SI mértékegység
+* **l** (liter) Térfogat SI mértékegység
+* **hl** (hektoliter) Térfogat SI mértékegység
+* **m^3** (köbméter) Térfogat SI mértékegység
+* **mm** (miliméter) Távolság SI mértékegység
+* **cm** (centiméter) Távolság SI mértékegység
+* **dm** (deciméter) Távolság SI mértékegység
+* **m** (méter) Távolság SI mértékegység
+* **km** (kilóméter) Távolság SI mértékegység
+* **m** (méter) Távolság SI mértékegység
+* **SI** Nemzetközileg elfogadott mértékegység rendszer
