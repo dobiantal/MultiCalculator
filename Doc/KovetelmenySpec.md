@@ -18,20 +18,19 @@ hogy a felhasználók könnyen és hatékonyan tudjanak számolni a mindennapi m
 
 A második opció egy speciális felületet kínál a mértékegység-átváltáshoz. Ezen a platformon a dolgozók
 kiválaszthatják, hogy milyen területen szeretnének átváltást készíteni. 
-Az átváltás három kulcsfontosságú területet foglal magában: Hosszúság, Terület és Térfogat.
+Az átváltás három kulcsfontosságú területet foglal magában: Hosszúság, Tömeg és Térfogat.
 
 #### Hosszúság:
 
 * A program lehetővé teszi a milliméter, centiméter, deciméter, méter, kilóméter és mérföld egységek közötti pontos és megbízható átváltást.
 
-#### Terület:
+#### Tömeg:
 
-* Az átváltás lehetőséget biztosít a különböző területegységek között, biztosítva a szükséges flexibilitást a munkájuk során.
+* Ezen felül a Tömeg opcióban a rendszer lehetővé teszi a qramm, dekagramm, kilógramm és tonna egységek közötti váltást is.
 
 #### Térfogat:
 
 * A térfogatnál a program támogatja a mililiter, centiliter, deciliter, liter, hektoliter és köbméter egységek közötti átváltást.
-Ezen felül a Tömeg opcióban a rendszer lehetővé teszi a qramm, dekagramm, kilógramm és tonna egységek közötti váltást is.
 
 Ez a rendkívül sokoldalú szoftver nem csupán egy egyszerű eszköz, hanem egy olyan eszköz, amely integrálja a matematikai műveleteket és az egységátváltást egy könnyen kezelhető platformon, hogy segítse a dolgozókat hatékonyabb és pontosabb munkavégzésben.
 ## 3.A rendszerre vonatkozó pályázat
