@@ -4,6 +4,7 @@
 * Manuális teszttel ellenőrizzük a működést:  
 _A manuális teszt során kézzel megkattintjuk a funkciógombokat, hogy a megfelelő funkcióhoz a
 megfelelő kimenetet jelenik meg._
+Ez a jegyzőkönyvben a **T1** jelzéssel fog szerepelni!
 ### 2. Számológép backend
 A számológép backend tesztelésénél Unit teszt alkalmazása. Ezeknek a unit teszteknek 
 az opárátorok metódusainak pontosságát kell ellenőriznie. Minden operátorra készíteni kell
@@ -18,8 +19,10 @@ arra hibajegyet kell készíteni. A jegyzőkönyvben a **T3** mas jelzéssel fog
 * Unit teszt:  
 _Minden metódust mely az átváltásokért felelős értéktesztnek vetjük alá. Ellenőrizzük, hogy
 minden átváltás a mefelelő értékkel tér vissza._
+Ez a jegyzőkönyvben a **T4** jelzéssel fog szerepelni!
 ### 5. Főképernyő
 * Manuális teszt:  
 _Az első verzióban a kezdőképernyőn két funkciógomb fog helyet foglalni. Ezek tesztelése, melyben
 vizsgáljuk, hogy a megfelelő gomb a hozzárendelt új képernyőt nyitja._
+Ez a jegyzőkönyvben a **T5** jelzéssel fog szerepelni!
 
