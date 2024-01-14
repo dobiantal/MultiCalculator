@@ -1,3 +1,5 @@
+import math
+
 #Összeadás művelete
 def Addition(A:int, B:int):
     try:
@@ -35,3 +37,24 @@ def multiplicate(OPERANDUS_A, OPERANDUS_B):
         raise ValueError("Az OPERANDUS_A vagy OPERANDUS_B értéke nem lehet 0.")
 
     return OPERANDUS_A * OPERANDUS_B
+
+
+#négyzetgyök elkészítése
+def negyzetgyok(OPERANDUS_A):
+
+    """
+    if (type(OPERANDUS_A) == str):
+        return 0
+    """
+
+    try:
+        OPERANDUS_A = float(OPERANDUS_A)
+        # Ha negatív számot kap 0 val tér vissza
+        if (OPERANDUS_A < 0):
+            return 0
+
+        return math.sqrt(OPERANDUS_A)
+    except TypeError:
+        return "TERR"
+    except:
+        return "ERR"
