@@ -81,11 +81,6 @@ Egységes és hatékony mértékegység-átváltások.
 Csökkenő hibaszázalék a mindennapi feladatok során.
 Ez a dokumentáció felvázolja a jelenlegi üzleti folyamatok modelljét, és azokat a területeket, amelyeken fejlesztéseket kívánunk végrehajtani a hatékonyság és pontosság növelése érdekében.
 
-
-
-
-
-
 ## 5.Igényelt üzleti folyamatok modellje
 #### 5.1 Üzleti szereplők
 A rendszerben nem különböztetünk meg külön felhasználó szinteket és jogosultsági szinteket sem. 
@@ -110,6 +105,16 @@ funkciók és az arab számok 0-9-ig. Ezt követően jelenítse meg a kiszámít
 * Tömeg esetében váltson **qramm**, **dekagramm**, **kilógramm**, **tonna** egységek között.
 * Térfogat esetében váltson **mililiter**, **centiliter**, **deciliter**, **liter**, **hektoliter** és **köbméter** egységek között.
 * Hosszúság esetében legyen képes kezelni a **milliméter**, **centiméter**, **deciméter**, **méter**, **kilóméter**, **mérföld** egységek közötti váltásokat.
+ID|Verzió|Név|Kifejtés
+--|------|---|--------
+K01|V1.0|Összeadás|A számológép összeadás metódusa kapjon 2 operandust és adja össze a két számot.|
+K02|V1.0|Kivonás|A számológép kivonás metódusa kapjon 2 operandust és vonja ki a két számot.|
+K03|V1.0|Szorzás|A számológép szorzás metódusa kapjon 2 operandust és szorozza össze a két számot.|
+K04|V1.0|Osztás|A számológép osztás metódusa kapjon 2 operandust és ossza el a két számot. Figyel a 0-val való osztásra!.|
+K05|V1.0|Gyökvonás|A számológép gyökvonás metódusa kapjon 1 operandust és adja vissza a négyzetgyökét.|
+K06|V1.0|Távolság|A mértékegység átváltó távolság értékek átváltásáért felelős metódus a fent leírt SI egységek között képes legyen a váltásra.|
+K07|V1.0|Tömeg|A mértékegység átváltó tömeg értékek átváltásáért felelős metódus a fent leírt SI egységek között képes legyen a váltásra|
+K08|V1.0|Térfogat|A mértékegység átváltó térfogat értékek átváltásáért felelős metódus a fent leírt SI egységek között képes legyen a váltásra|
 #### 6.2 Nem funkcionális követelmények
 A fejelsztésre kerülő szoftver a potenciális felhasználók számára könnyen tanulható és használható, minimális informatikai tudással alkalmazható. 
 A program Windows platformra könnyen integrálható legyen.
