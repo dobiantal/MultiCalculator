@@ -9,6 +9,30 @@ munkafolyamataik során leggyakrabban előforduló hibák csökkentésére. Ezze
 Ennek megoldása érdekében az önkormányzat elkötelezett a modern informatikai eszközök bevezetése mellett, 
 melyek segítségével hatékonyabban és hibamentesebben végezhetik el mindennapi tevékenységeiket. 
 ## 2.Vágyálom rendszer leírása
+A célunk egy rendkívül komplex szoftver megalkotása, amely két különleges opciót kínál a dolgozóknak,
+ezáltal maximális funkcionalitást és kényelmet biztosítva. Az első opció egy magas szintű számológép,
+amely minden olyan matematikai művelettel rendelkezik, amelyre a dolgozóknak szüksége van a mindennapi 
+tevékenységeik során. A program egyszerű és felhasználóbarát felülettel rendelkezik, amely lehetővé teszi
+az egyszerű összeadást, kivonást, osztást, szorzást és gyökvonást. Ennek a matematikai opciónak az a célja,
+hogy a felhasználók könnyen és hatékonyan tudjanak számolni a mindennapi munkafolyamataik során.
+
+A második opció egy speciális felületet kínál a mértékegység-átváltáshoz. Ezen a platformon a dolgozók
+kiválaszthatják, hogy milyen területen szeretnének átváltást készíteni. 
+Az átváltás három kulcsfontosságú területet foglal magában: Hosszúság, Terület és Térfogat.
+
+####Hosszúság:
+
+* A program lehetővé teszi a milliméter, centiméter, deciméter, méter, kilóméter és mérföld egységek közötti pontos és megbízható átváltást.
+####Terület:
+
+* Az átváltás lehetőséget biztosít a különböző területegységek között, biztosítva a szükséges flexibilitást a munkájuk során.
+
+####Térfogat:
+
+* A térfogatnál a program támogatja a mililiter, centiliter, deciliter, liter, hektoliter és köbméter egységek közötti átváltást.
+Ezen felül a Tömeg opcióban a rendszer lehetővé teszi a qramm, dekagramm, kilógramm és tonna egységek közötti váltást is.
+
+Ez a rendkívül sokoldalú szoftver nem csupán egy egyszerű eszköz, hanem egy olyan eszköz, amely integrálja a matematikai műveleteket és az egységátváltást egy könnyen kezelhető platformon, hogy segítse a dolgozókat hatékonyabb és pontosabb munkavégzésben.
 ## 3.A rendszerre vonatkozó pályázat
 ## 4.Jelenlegi üzleti folyamatok modellje
 ## 5.Igényelt üzleti folyamatok modellje
