@@ -5,7 +5,9 @@ class Converter:
     __from_unit: str
     '''Mire váltok'''
     __to_unit: str
-    '''Jelzi milyen mérétkegység csoportot kell figyelni | Távolság(D) | Térfogat(V) | Súly(W)'''
+    '''Jelzi milyen mérétkegység csoportot kell figyelni | Távolság(Távolság) | Térfogat(Térfogat) | Súly(Tömeg) 
+        A zárójelben jelzett Literálok a frontendben beégetett menüpontok.
+    '''
     __pointer: str
     __Distance_data_table: dict = {"mm": 1, "cm": 10, "dm": 10**2, "m": 10**3, "km": 10**6, "miles": 1.6*10**6}
     __Volume_data_table: dict = {"ml": 1, "cl": 10, "dl": 10**2, "l": 10**3, "hl": 10**5, "m^3": 10**6}
@@ -23,20 +25,20 @@ class Converter:
                     decreaser += v
                 elif k == self.__to_unit:
                     increaser += v
-            return print(self.__value * decreaser / increaser)
+            return self.__value * decreaser / increaser
     def Convert_unit(self):
         # Distance
-        if self.__pointer == "D":
-            self.__Converter_logic(self.__Distance_data_table)
+        if self.__pointer == "Távolság":
+            return self.__Converter_logic(self.__Distance_data_table)
         # Volume
-        elif self.__pointer == "V":
-            self.__Converter_logic(self.__Volume_data_table)
+        elif self.__pointer == "Térfogat":
+            return self.__Converter_logic(self.__Volume_data_table)
         # Weight
-        elif self.__pointer == "W":
-            self.__Converter_logic(self.__Weight_data_table)
+        elif self.__pointer == "Tömeg":
+            return self.__Converter_logic(self.__Weight_data_table)
 
 
-unit = Converter(1,"dl","l","V")
-unit.Convert_unit()
+#unit = Converter(1,"dl","l","V")
+#unit.Convert_unit()
 
 

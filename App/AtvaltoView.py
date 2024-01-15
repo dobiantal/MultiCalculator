@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
-import Converter
+import App.Converter as Converter
 
 def AtvaltoMegjelen():
     """*A főablak implementálása."""
@@ -116,7 +116,7 @@ def AtvaltoMegjelen():
         if ertekHelyesEsKonvertal():
 
             unit = Converter.Converter(1,"dl","l","V")
-            kiir = unit.ertekk
+            kiir = unit.Convert_unit()
 
             print(kiir)
             print(type(kiir))
