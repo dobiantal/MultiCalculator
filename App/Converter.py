@@ -18,14 +18,17 @@ class Converter:
         self.__to_unit = to_unit
         self.__pointer = pointer
     def __Converter_logic(self, data_dict):
-            decreaser = 0
-            increaser = 0
-            for k, v in data_dict.items():
-                if k == self.__from_unit:
-                    decreaser += v
-                elif k == self.__to_unit:
-                    increaser += v
-            return self.__value * decreaser / increaser
+            if self.__from_unit == self.__to_unit:
+                return self.__value
+            else:
+                decreaser = 0
+                increaser = 0
+                for k, v in data_dict.items():
+                    if k == self.__from_unit:
+                        decreaser += v
+                    elif k == self.__to_unit:
+                        increaser += v
+                return self.__value * decreaser / increaser
     def Convert_unit(self):
         # Distance
         if self.__pointer == "Távolság":
@@ -38,7 +41,7 @@ class Converter:
             return self.__Converter_logic(self.__Weight_data_table)
 
 
-#unit = Converter(1,"dl","l","V")
+#unit = Converter(1,"m","km","Távolság")
 #unit.Convert_unit()
 
 
