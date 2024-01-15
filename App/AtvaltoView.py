@@ -13,6 +13,7 @@ def AtvaltoMegjelen():
     From_top: int = 200
     window.geometry(f'{Width}x{Height}+{From_top_left}+{From_top}')
 
+
     ertek=0.0
 
     merteklista = []
@@ -29,8 +30,8 @@ def AtvaltoMegjelen():
         global merteklista
         if comboTipus.get() == "Távolság":
 
-            comboMirol['values'] = ["km", "m", "dm", "cm", "mm"]
-            comboMire['values'] = ["km","m" , "dm", "cm", "mm"]
+            comboMirol['values'] = ["km", "miles","m", "dm", "cm", "mm"]
+            comboMire['values'] = ["km","miles" ,"m", "dm", "cm", "mm"]
 
         if comboTipus.get() == "Tömeg":
 
@@ -39,8 +40,8 @@ def AtvaltoMegjelen():
 
         if comboTipus.get() == "Térfogat":
 
-            comboMirol['values'] = ["m3","hl","l","dl","cl","ml"]
-            comboMire['values'] = ["m3","hl","l","dl","cl","ml"]
+            comboMirol['values'] = ["m^3","hl","l","dl","cl","ml"]
+            comboMire['values'] = ["m^3","hl","l","dl","cl","ml"]
 
 
 
@@ -82,6 +83,11 @@ def AtvaltoMegjelen():
     Y_tipussor = 50
     Y_atvaltas = 260
 
+    labelHIBA = tk.Label(window,
+                         text=" ",
+                         width=5
+                         )
+
     #Gombok és legördülő listák pozícionálása
     comboTipus.place(x=50, y=Y_tipussor)
     comboMirol.place(x=160, y=Y_atvaltas)
@@ -89,6 +95,8 @@ def AtvaltoMegjelen():
     comboMire.place(x=450, y=Y_atvaltas)
     textMirol.place(x=80,y=Y_atvaltas)
     labelMire.place(x= 390,y=Y_atvaltas)
+    labelHIBA.place(relwidth=0.4, relheight=0.10, relx=0.30, rely=0.3)
+
 
 
     #kell egy textbox érték
@@ -100,30 +108,34 @@ def AtvaltoMegjelen():
         kiszamoltErtek()
 
 
-    def ertekHelyesEsKonvertal():
+    def Vanhiba():
         global ertek
         ertek = textMirol.get("1.0", "end-1c")
         try:
             ertek = float(ertek)
-            return True
+            return False
         except :
+
             print("hiba")
+            messagebox.showerror("HIBA!", "HIBÁS ÉRTÉK!")
+            return True
+
+
+
+
+
 
 
     #A kiszámolt mezőbe beírja az értéket
-    def kiszamoltErtek():
-        global ertek
-        if ertekHelyesEsKonvertal():
+    def kiszamoltErtek(event):
 
-            unit = Converter.Converter(1,"dl","l","V")
-            kiir = unit.Convert_unit()
-
-            print(kiir)
-            print(type(kiir))
+        if  Vanhiba() == False :
+            global ertek
+            unit = Converter.Converter(ertek,comboMirol.get(),comboMire.get(),comboTipus.get())
+            kiir  = unit.Convert_unit()
             labelMire['text'] = str(kiir)
-        #print(f"kiszamolt:{ertek}")
 
-    btn_convert.bind("<Button-1>",atvalt)
+    btn_convert.bind("<Button-1>",kiszamoltErtek)
 
 
 
