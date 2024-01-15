@@ -121,11 +121,6 @@ def AtvaltoMegjelen():
             return True
 
 
-
-
-
-
-
     #A kiszámolt mezőbe beírja az értéket
     def kiszamoltErtek(event):
 
