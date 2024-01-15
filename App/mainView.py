@@ -1,6 +1,7 @@
 import tkinter as tk
 
-import AtvaltoView
+import App.AtvaltoView as A
+import App.Calculator_view as C
 
 """*A főablak implementálása."""
 windowMain = tk.Tk()
@@ -28,12 +29,12 @@ atvaltoBTN.place(relwidth=0.5, relheight=0.1, relx=0.25, rely=0.5)
 
 #számológép button metódus
 def szamologepMegnyit(event):
-   AtvaltoView.AtvaltoMegjelen()
+   C.calc_view()
 
 
 #átváltó button metódis
 def atvaltoMegnyit(event):
-    AtvaltoView.AtvaltoMegjelen()
+    A.AtvaltoMegjelen()
 
 #gombok esemény kezelése
 szamologepBTN.bind('<Button-1>',szamologepMegnyit)
