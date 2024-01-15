@@ -36,7 +36,7 @@ class Converter:
             self.__Converter_logic(self.__Weight_data_table)
 
 
-unit = Converter(1,"l","dl","V")
+unit = Converter(1,"dl","l","V")
 unit.Convert_unit()
 
 

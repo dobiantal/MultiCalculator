@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
+import Converter
 
 def AtvaltoMegjelen():
     """*A főablak implementálása."""
@@ -12,7 +13,7 @@ def AtvaltoMegjelen():
     From_top: int = 200
     window.geometry(f'{Width}x{Height}+{From_top_left}+{From_top}')
 
-    ertek=0
+    ertek=0.0
 
     merteklista = []
     tipusLista =["Távolság", "Tömeg", "Térfogat"]
@@ -71,7 +72,7 @@ def AtvaltoMegjelen():
                          text=ertek,
                          width=5)
 
-    #első legördülő lista a mire való kiválasztása
+    #masodik legördülő lista a mire való kiválasztása
     comboMire = ttk.Combobox(window,
         state="readonly",
         values = merteklista,
@@ -95,38 +96,32 @@ def AtvaltoMegjelen():
 
     #Összefogó metódus at átváltó gombra
     def atvalt(event):
-        ertekadas()
+        global ertek
         kiszamoltErtek()
 
-        #Ha helyes az érték
-        if ertekHelyes() :
-            print(ertek)
 
-
-    def ertekHelyes():
+    def ertekHelyesEsKonvertal():
         global ertek
+        ertek = textMirol.get("1.0", "end-1c")
         try:
-            ertek = int(ertek)
+            ertek = float(ertek)
             return True
-        except TypeError:
-            print("típus hiba")
         except :
             print("hiba")
 
 
-
-    def ertekadas():
-        global ertek
-        ertek = textMirol.get("1.0", "end-1c")
-
     #A kiszámolt mezőbe beírja az értéket
     def kiszamoltErtek():
         global ertek
-        ertek = int(ertek)
-        ertek = ertek * 1000
+        if ertekHelyesEsKonvertal():
 
-        labelMire['text']=ertek
+            unit = Converter.Converter(1,"dl","l","V")
+            kiir = unit.ertekk
 
+            print(kiir)
+            print(type(kiir))
+            labelMire['text'] = str(kiir)
+        #print(f"kiszamolt:{ertek}")
 
     btn_convert.bind("<Button-1>",atvalt)
 
