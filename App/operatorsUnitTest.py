@@ -19,3 +19,12 @@ class UnitTest(unittest.TestCase):
         self.assertAlmostEqual(Operator.Addition(13,45),58)
         self.assertAlmostEqual(Operator.Addition(100,6543),6643)
         self.assertAlmostEqual(Operator.Addition(19765,20),19785)
+        self.assertAlmostEqual(Operator.Addition(1.8,20),21.8)
+
+    def test_szorzas(self):
+        self.assertAlmostEqual(Operator.multiplicate(3,5),15)
+        self.assertAlmostEqual(Operator.multiplicate(6,6),36)
+        self.assertAlmostEqual(Operator.multiplicate(6,9),54)
+        self.assertAlmostEqual(Operator.multiplicate(5,5),25)
+        #self.assertAlmostEqual(Operator.multiplicate(3,-5),-15)
+
