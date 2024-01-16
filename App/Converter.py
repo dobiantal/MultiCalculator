@@ -12,7 +12,9 @@ class Converter:
     __Distance_data_table: dict = {"mm": 1, "cm": 10, "dm": 10**2, "m": 10**3, "km": 10**6, "miles": 1.6*10**6}
     __Volume_data_table: dict = {"ml": 1, "cl": 10, "dl": 10**2, "l": 10**3, "hl": 10**5, "m^3": 10**6}
     __Weight_data_table: dict = {"g": 1, "dkg": 10, "kg": 10**3, "t": 10*6}
-    def __init__(self, value, from_unit, to_unit, pointer):
+    def __init__(self, value: float, from_unit: str, to_unit: str, pointer:str):
+        if value < 0:
+            raise ValueError("Invalid value! The value must be higher than 0",-1)
         self.__value = value
         self.__from_unit = from_unit
         self.__to_unit = to_unit
