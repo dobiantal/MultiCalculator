@@ -28,3 +28,8 @@ class UnitTest(unittest.TestCase):
         self.assertAlmostEqual(Operator.multiplicate(5,5),25)
         #self.assertAlmostEqual(Operator.multiplicate(3,-5),-15)
 
+    def test_kivonas(self):
+        self.assertAlmostEqual(Operator.subtract(10,3),7)
+        self.assertAlmostEqual(Operator.subtract(10034,563),9471)
+        self.assertAlmostEqual(Operator.subtract(10,3),7)
+        self.assertAlmostEqual(Operator.subtract(10,3),7)
